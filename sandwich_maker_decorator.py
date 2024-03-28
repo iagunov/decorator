@@ -8,7 +8,7 @@ def decorator_sandwich_maker(
         sauce_type: str
         ) -> Callable[[Callable[[str], str]], Callable[[str], str]]:
     """
-    Make a sandwich decorator.
+    Making any type of sandwich.
     :param bread_type:
     :param sauce_type:
     :return:
